@@ -327,6 +327,10 @@ fieldset {
 .toggle-activation .toggle-checkbox:checked + .toggle-button > * {
     left: 16px; }
 
+
+
+/*modal*/
+
 /* line 218, src/assets/css/style.scss */
 .modal {
     max-width: 360px; }
@@ -443,6 +447,61 @@ fieldset {
 /* line 287, src/assets/css/style.scss */
 .edit-setting svg {
     fill: var(--brightPurple); }
+
+
+.patient_search {
+    color:#000;
+    font-family: 'Nanumsquare';
+}
+
+.patient_search h3{
+    font-size: 1.3rem;
+    color:#000;
+    opacity: .8;
+}
+
+.patient_search svg{
+    fill:#000;
+    opacity: .2;
+}
+
+.patient_modal{
+    max-width:45% !important;
+    max-height: 100% !important;
+}
+
+.input_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient_table{
+    color:#000;
+    margin-top:2rem;
+    text-align: center;
+}
+
+.patient_table li:nth-of-type(1){
+    width:33%
+}
+
+.patient_table li:nth-of-type(2){
+    width:33%
+}
+
+.patient_table li:nth-of-type(3){
+    width:33%
+}
+
+.patient_search_input {
+    margin: 0rem .5rem 0rem .5rem;
+}
+
+.patient_search_input input{
+    padding: .4rem !important;
+}
+
 
 @media screen and (max-width: 1200px) {
     /* line 292, src/assets/css/style.scss */

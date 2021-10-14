@@ -442,6 +442,11 @@ header {
 .button-container button {
     margin-left: .5rem; }
 
+.button-number{
+    background-color: #c7c7c7;
+}
+
+
 /* Progress */
 /* line 281, src/assets/css/base.scss */
 .progress-wrap {
@@ -988,6 +993,7 @@ select::-ms-expand {
     border-radius: 6px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #a3a6a9; }
+
 
 @-webkit-keyframes fadeIn {
     0% {
